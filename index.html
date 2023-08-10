@@ -11,61 +11,65 @@
     <div class="container">
         <div class="image"> 
             <img src="background.jpg" alt="color background">
+            <div class="logo">
+                <img src="wave.png" alt="wave logo" width="100px" height="100px">
+            </div>
+            <a href="https://www.flaticon.com/free-icons/wave" title="wave icons">Wave icons created by Ayub Irawan - Flaticon</a>
         </div>
         <div class="form">
             <div class="form-caption">
                 <p>
-                    This is not a real online service! You know you need something
-                    like this in your life to help you realize your deepest dreams.
-                    Sign up now to get started.
+                    This is not a real online service! You know you need something</br>
+                    like this in your life to help you realize your deepest dreams.<br>
+                    Sign up <em>now</em> to get started.
                 </p>
                 <br>
-                
                 <p>
-                    You know you want to.
+                    You <em>know</em> you want to.
                 </p>
             </div>
-            <form action="/" method="get">
-                <div class="form-input">
+            <div class="form-input">
+                <form action="#" method="get">
                     <h2>Let's do this!</h2>
                     <section>
                         <div class="form-group">
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="first_name">
+                            <input type="text" id="first-name" name="first_name" required>
                         </div>
                         <div class="form-group">
                             <label for="last-name">LAST NAME</label>
-                            <input type="text" id="last-name" name="last_name">
+                            <input type="text" id="last-name" name="last_name" required>
                         </div>
                     </section>
                     <section>
                         <div class="form-group">
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email">
+                            <input type="email" id="email" required>
                         </div>
                         <div class="form-group">
                             <label for="pnumber">PHONE NUMBER</label>
-                            <input type="tel" id="pnumber" name="phone_number">
+                            <input type="tel" id="pnumber" name="phone_number" required>
                         </div>
                     </section>
                    <section>
                         <div class="form-group">
                             <label for="pass">PASSWORD</label>
-                            <input type="password" id="pass" name="password">
+                            <input type="password" id="pass" name="password" required>
                         </div>
                         <div class="form-group">
                             <label for="confirm">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm">
+                            <input type="password" id="confirm" required>
                         </div>
                    </section>
-                </div>
-                <div class="form-buttons">
-                    <button type="submit">Create Account</button>
-                    <p>
-                        Already have an account? <a href="/">Log in</a>
-                    </p>
-                </div>
-            </form>
+            </div>
+            <div class="form-buttons">
+                <button type="submit">Create Account</button>
+                <p>
+                    Already have an account? <a href="#">Log in</a>
+                </p>
+                </form>
+            </div>
+            
         </div>
     </div>
 </body>
