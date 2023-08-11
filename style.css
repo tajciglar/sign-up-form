@@ -6,7 +6,7 @@ body {
 }
 :root {
     --section-padding-left: 2rem;
-    --background-color: lightgrey;
+    --background-color: #d3e4f5;
 }
 .container {
     display: flex;
@@ -89,14 +89,15 @@ a{
     text-decoration: none;
 }
 
-button{
+input[type="submit"]{
     background-color: #2596be;
-    padding: 15px 30px;
+    padding: 15px 30px 30px;
     border-radius: 1rem;
     color: white;
     font-size: 16px;
     font-weight: bold;
-    border: 0;
+    border: none;
+    cursor: pointer;
 }
 
 .logo{
